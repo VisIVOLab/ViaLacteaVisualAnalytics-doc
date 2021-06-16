@@ -11,6 +11,7 @@ For more details about the ViaLactea Visual Analytics Tool and its aspects pleas
    :caption: Contents:
 
    intro
+   install
    settings
    main_window
    visualization
