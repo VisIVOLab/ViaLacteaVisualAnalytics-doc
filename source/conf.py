@@ -22,7 +22,7 @@ copyright = '2021, NEANIAS Space Team'
 author = 'NEANIAS Space Team'
 
 # The full version, including alpha/beta/rc tags
-release = '1.1'
+release = '1.4'
 
 
 # -- General configuration ---------------------------------------------------
@@ -52,6 +52,8 @@ numfig = True
 #
 # html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
+
+html_logo = 'logo.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
