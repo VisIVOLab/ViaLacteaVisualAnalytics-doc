@@ -1,8 +1,10 @@
 Installation
 ============
-The source code of VLVA is available `here <https://github.com/NEANIAS-Space/ViaLacteaVisualAnalytics>`_.
+VLVA is an open-source software available for macOS and Linux systems. The source code is available on `GitHub <https://github.com/NEANIAS-Space/ViaLacteaVisualAnalytics>`_.
 
-DMG and Debian packages can be found in the `GitHub Releases page <https://github.com/NEANIAS-Space/ViaLacteaVisualAnalytics/releases>`_.
+To manually build and install VLVA (with its dependencies), follow the steps provided `here <https://github.com/NEANIAS-Space/ViaLacteaVisualAnalytics/blob/master/INSTALL.md>`_.
+
+Pre-compiled DMG and Debian packages are available on the `GitHub Releases page <https://github.com/NEANIAS-Space/ViaLacteaVisualAnalytics/releases>`_.
 
 Docker container
 ----------------
@@ -14,9 +16,9 @@ To start a new container, use the following command:
 
     $ docker run -it -e SIZEW=1920 -e SIZEH=1080 -e CDEPTH=24 -e SHARED=TRUE -e VNCPASS=vncpasswd -p 5901:5901 neaniasspace/vialacteavisualanalytics:latest
 
-Then open a browser and go to http://localhost:5901/. The default password is "vncpasswd" (see the VNCPASS value in the Docker command).
+Then open a browser and go to http://localhost:5901/. The default password is "vncpasswd" (see the :envvar:`VNCPASS` value defined in the Docker command).
 
-Before starting VLVA change the scaling mode (:guilabel:`Settings` → :guilabel:`Scaling Mode` → :guilabel:`Remote Resizing`) and enable fullscreen (see :numref:`vnc-window`).
+Before starting VLVA change the scaling mode (:menuselection:`Settings --> Scaling Mode --> Remote Resizing`) and enable fullscreen (see :numref:`vnc-window`).
 
 .. _vnc-window:
 .. figure:: images/vnc.png
