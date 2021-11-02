@@ -19,4 +19,4 @@ VLVA allows to load a FITS file image that is locally stored on the user's compu
 Similarly, the :guilabel:`Local DC` button allows to load and visualize a velocity datacube FITS file that is already stored on a local disk. When loading a datacube, VLVA will also compute the zeroth moment map which will be visualized as a 2D image layer.
 The VLKB search functionality is also extended to imported files.
 
-The :guilabel:`Select` button under the 3D section allows to specify the range of coordinates on which to perform a 3D visualization of compact sources on the galactic plane.
+The :guilabel:`Select` button under the 3D section allows to specify the range of coordinates on which to perform a 3D visualization of compact sources on the galactic plane (:ref:`3d-sources-sect`).

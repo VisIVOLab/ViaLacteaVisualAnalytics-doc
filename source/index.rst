@@ -7,12 +7,14 @@ All underlying data are managed by the ViaLactea Knowledge Base (VLKB). The VLKB
 For more details about the ViaLactea Visual Analytics tool and its aspects please refere to `F. Vitello et al. 2018 PASP 130 084503 <https://iopscience.iop.org/article/10.1088/1538-3873/aac5d2>`_.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
    intro
    install
    settings
    main_window
-   visualization
-
+   images
+   datacubes
+   3d_sources
+   
