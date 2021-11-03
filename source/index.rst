@@ -17,4 +17,4 @@ For more details about the ViaLactea Visual Analytics tool and its aspects pleas
    images
    datacubes
    3d_sources
-   
+   session
