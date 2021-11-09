@@ -24,12 +24,9 @@ On the top-right panel there is a list (following referred as VLKB inventory) of
 
 Furthermore, the following operations can be carried out:
 
-    * :ref:`layers`
-    * :ref:`compact-sources`
-    * :ref:`filaments`
+.. contents::
+    :local:
 
-
-.. _layers:
 
 Adding a new layer image
 ------------------------
@@ -47,8 +44,6 @@ The checkbox on the left of each row can activate or deactivate the visualizatio
 
     Visualization of several layers
 
-
-.. _compact-sources:
 
 Compact sources visualization
 -----------------------------
@@ -104,8 +99,6 @@ The bottom panel in this window shows either the output logs or the results of t
 
     SED plot: in blue the theoretical fit performed on the selected SED
 
-
-.. _filaments:
 
 Filaments visualization
 -----------------------

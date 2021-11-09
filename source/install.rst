@@ -12,7 +12,7 @@ VLVA is also available as a Docker container. The container leverages Virtual Ne
 
 To start a new container, use the following command:
 
-::
+.. code-block:: console
 
     $ docker run -it -e SIZEW=1920 -e SIZEH=1080 -e CDEPTH=24 -e SHARED=TRUE -e VNCPASS=vncpasswd -p 5901:5901 neaniasspace/vialacteavisualanalytics:latest
 
