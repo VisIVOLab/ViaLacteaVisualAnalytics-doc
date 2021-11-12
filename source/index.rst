@@ -8,13 +8,23 @@ For more details about the ViaLactea Visual Analytics tool and its aspects pleas
 
 .. toctree::
    :maxdepth: 3
-   :caption: Contents:
+   :caption: Setup
 
    intro
    install
    settings
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Visualization and Analyses
+
    main_window
    images
    datacubes
    3d_sources
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Session management
+
    session
